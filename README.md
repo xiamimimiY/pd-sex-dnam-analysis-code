@@ -13,7 +13,9 @@ The scripts were curated from the authors' analysis folder for transparency and 
 - `scripts/03_dmp_dmr_downstream/`: DMP/DMR downstream annotation, enrichment, comb-p input preparation, and comb-p wrapper script.
 - `scripts/04_validation_and_integration/`: PPMI baseline DNAm preprocessing/EWAS pipeline, longitudinal DNAm validation, RNA time-series analyses, eQTM input preparation and analysis, ZNF727 visualization, and CIT analyses.
 - `scripts/05_reviewer_requested_analyses/`: additional analyses performed during peer review, including DMP background comparisons and age plus cell-composition-adjusted eQTM sensitivity analyses.
-- `CODE_MANIFEST.tsv`: mapping from each public script path to its original local source path, SHA-256 checksum, and file size.
+- `METHODS_CODE_MAP.md`: mapping between manuscript Methods sections and the corresponding scripts.
+- `CODE_MANIFEST.tsv`: public script inventory with workflow labels, SHA-256 checksums, and file sizes.
+- `PUBLIC_CODE_CHECKSUMS.tsv`: checksums for all public files in this repository.
 
 ## Data and external software
 
@@ -39,16 +41,6 @@ External tools used by the workflow include:
 
 Some scripts retain local file names from the original analysis environment. Before rerunning, edit input/output paths to match the local directory structure and confirm that package versions are compatible with the analysis environment.
 
-## Code availability wording
-
-Suggested manuscript statement after uploading this folder to GitHub, Zenodo, or another repository:
-
-The curated analysis scripts supporting this study are publicly available at [repository URL]. Public source datasets should be obtained from the original data repositories under their respective access policies.
-
-Suggested response to Reviewer 2, comment 10:
-
-We thank the reviewer for this helpful suggestion. We agree that code availability is important for transparency, reproducibility, and open science. We have curated the analysis scripts supporting the study and deposited them in a public repository: [repository URL]. We have also added a Code Availability statement to the revised manuscript.
-
 ## License
 
-No license has been selected yet. Add an appropriate open-source license before making the repository public.
+No license has been selected for this repository. Please contact the corresponding author for reuse beyond review and reproducibility purposes.
